@@ -7,3 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
   ReactDOM.render(<h1>Butt</h1>, root)
 
 })
+
+window.getState = store.getState;
+window.dispatch = store.dispatch;
